@@ -1,0 +1,61 @@
+* {
+      margin: 0;
+  }
+  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-family: sans-serif;
+      overflow: hidden;
+      background: linear-gradient( #0a0a0a, #3a4452, rgb(156, 77, 77));
+  }
+  
+  table {
+      border-radius: 15px;
+      background: transparent;
+      box-shadow: 0px 0px 10px #030000, 0px 0px 20px black;
+      color: #f5f1f1;
+  }
+
+  #display{
+      text-align: right;
+      border: none;
+      height: 50px;
+      box-shadow: none;
+      font-size: 40px;
+  }
+  
+  table tr {
+      height: 60px;
+      cursor: pointer;
+      font-size: 20px;
+      border: none;
+    }
+
+    
+    table tr td {
+      height: 40px;
+      width: 40px;
+      margin: 10px;
+      text-align: center;
+      border: none;
+      box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+      border-radius:50%; 
+  }
+  
+  .signs {
+      background-color: rgb(225, 88, 88);
+      border: none;
+      font-size: 25px;
+      color: rgb(229, 215, 215);
+  }
+  .main-signs {
+      background-color: #252a32;
+      border: none;
+    }
+
+    .equal{
+        background-color: rgb(248, 33, 33);
+        font-size: 25px;
+    }
