@@ -43,7 +43,10 @@
       box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
       border-radius:50%; 
   }
-  
+  table tr td:hover{
+    background-color:white;
+    color: #030000;
+  }
   .signs {
       background-color: rgb(225, 88, 88);
       border: none;
